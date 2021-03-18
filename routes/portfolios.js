@@ -13,6 +13,7 @@ const {
 router.get("", getPortfolios);
 router.get("/:id", getPortfolioById);
 
+// FIXME
 // TODO: create middleware to check for admin rights!!!!
 router.post("", checkJwt, /* checkRole("admin"), */ createPortfolio);
 router.patch("/:id", checkJwt, /* checkRole("admin"), */ updatePortfolio);
