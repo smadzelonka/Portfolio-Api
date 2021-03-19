@@ -5,7 +5,7 @@ const portfoliosSchema = new Schema({
   title: { type: String, required: true, maxlength: 128 },
   stack: { type: String, required: true },
   githubWebsite: { type: String, required: true, maxlength: 128 },
-  githubImage: { type: String, required: true, maxlength: 128 },
+  githubImage: { type: String, maxlength: 128 },
   image: { type: String, required: true },
   // userIs: { type: String, required: true },
   description: { type: String, required: true },

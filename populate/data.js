@@ -1,3 +1,4 @@
+/* FIXME need to update fields for depolyment */
 const data = {
   portfolios: [
     {
