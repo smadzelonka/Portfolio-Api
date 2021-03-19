@@ -13,4 +13,5 @@ class FakeDB {
     await this.addData();
   }
 }
+
 module.exports = new FakeDB();
