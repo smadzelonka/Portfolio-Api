@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const portfoliosSchema = new Schema({
   title: { type: String, required: true, maxlength: 128 },
   stack: { type: String, required: true },
-  Website: { type: String, required: true, maxlength: 128 },
+  website: { type: String, required: true, maxlength: 128 },
   githubWebsite: { type: String, required: true, maxlength: 128 },
   githubImage: { type: String, maxlength: 128 },
   image: { type: String, required: true },
